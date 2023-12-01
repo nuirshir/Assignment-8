@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y291cnNlfGVufDB8fDB8fHww",
+      "name": "Introduction to Python Programming",
+      "price": "99.99",
+      "credit": 3,
+      "details": "This course covers the basics of Python programming language, such as syntax, data types, control structures, functions, modules, and object-oriented programming. You will learn how to write, run, and debug Python programs using various tools and frameworks. You will also work on several projects ."
+    },
+    {
+      "id": 2,
+      "img": "https://images.unsplash.com/photo-1523289333742-be1143f6b766?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Web Development with HTML, CSS, and JavaScript",
+      "price": "149.99",
+      "credit": 4,
+      "details": "This course teaches you how to create dynamic and interactive web pages using HTML, CSS, and JavaScript. You will learn how to structure, style, and manipulate web content using these languages. You will also learn how to use libraries and frameworks such as Bootstrap, jQuery, and React to enhance your web development skills."
+    },
+    {
+      "id": 3,
+      "img": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Data Science with R",
+      "price": "199.99",
+      "credit": 5,
+      "details": "This course introduces you to the field of data science and the R programming language. You will learn how to import, clean, analyze, and visualize data using R and its packages. You will also learn how to use various statistical and machine learning techniques to solve real-world problems with data."
+    },
+    {
+      "id": 4,
+      "img": "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Artificial Intelligence with Python",
+      "price": "249.99",
+      "credit": 6,
+      "details": "This course explores the concepts and applications of artificial intelligence with Python. You will learn how to use Python libraries and frameworks such as NumPy, SciPy, TensorFlow, and PyTorch to implement various AI algorithms and models. You will also learn how to use AI techniques such as search, optimization."
+    },
+    {
+      "id": 5,
+      "img": "https://images.unsplash.com/photo-1532619187608-e5375cab36aa?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Blockchain and Cryptocurrency",
+      "price": "299.99",
+      "credit": 7,
+      "details": "This course provides an overview of blockchain and cryptocurrency technologies and their applications. You will learn how blockchain works, what are the benefits and challenges of using it, and how it can be used to create decentralized and distributed systems and platforms. You will also learn how ."
+    },
+    {
+      "id": 6,
+      "img": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Cybersecurity and Ethical Hacking",
+      "price": "349.99",
+      "credit": 8,
+      "details": "This course covers the fundamentals and advanced topics of cybersecurity and ethical hacking. You will learn how to protect systems and networks from cyberattacks, how to detect and respond to cyber threats, and how to perform penetration testing and vulnerability assessment. You will also learn how to use."
+    },
+    {
+      "id": 7,
+      "img": "https://plus.unsplash.com/premium_photo-1682284352941-58dceb6cd601?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Game Development with Unity and C#",
+      "price": "399.99",
+      "credit": 9,
+      "details": "This course teaches you how to create games using Unity and C#. You will learn how to use Unity's editor and features to design and develop 2D and 3D games. You will also learn how to use C# to program game logic, interactions, and behaviors. You will work on several game projects and prototypes using various."
+    },
+    {
+      "id": 8,
+      "img": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Machine Learning with MATLAB",
+      "price": "449.99",
+      "credit": 10,
+      "details": "This course introduces you to the field of machine learning and the MATLAB programming language. You will learn how to use MATLAB and its toolboxes to perform various machine learning tasks such as data preprocessing, feature extraction, dimensionality reduction, clustering, classification, regression."
+    },
+    {
+      "id": 9,
+      "img": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGNvdXJzZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Digital Marketing and Social Media",
+      "price": "499.99",
+      "credit": 11,
+      "details": "This course covers the principles and practices of digital marketing and social media. You will learn how to use digital channels and platforms such as websites, blogs, email, search engines, social networks, and mobile devices to reach and engage your target audience. You will also learn how to plan, execute."
+    }
+  ]
+  
