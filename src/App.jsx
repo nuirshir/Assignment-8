@@ -14,18 +14,40 @@ function App() {
   const [remaining, setRemaining] = useState(20);
 
   const addList = (name, credit, price) => {
+
+    // set the course title in the purchase list 
     setNames([...names, name]);
+
+    // Total Credit 
     const totalCredit = Credit + credit;
     if( totalCredit <= 20 ){
       setCredit( totalCredit );
     }
-    setPrice( Price + parseFloat(price) );
-    if ( Credit <= 20 ){
-      setRemaining( remaining - credit );
-    }
-    if ( Credit >= 20 ){
+    // toast for exceeding 20jr credit mark 
+    else {
       toast('You can only use 20 hour of credit')
     }
+
+    // Total Price 
+    setPrice( Price + parseFloat(price) );
+
+    // remaining credit 
+    if ( remaining >= 5 ){
+      setRemaining( remaining - credit );
+    }
+    else {
+      toast.warn('Credit hours exceeded', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+    }
+
   }
 
 
