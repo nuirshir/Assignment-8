@@ -15,9 +15,6 @@ function App() {
 
   const addList = (name, credit, price) => {
 
-    // set the course title in the purchase list 
-    setNames([...names, name]);
-
     // Total Credit 
     const totalCredit = Credit + credit;
     if( totalCredit <= 20 ){
@@ -28,12 +25,13 @@ function App() {
       toast('You can only use 20 hour of credit')
     }
 
-    // Total Price 
-    setPrice( Price + parseFloat(price) );
-
     // remaining credit 
-    if ( remaining >= 5 ){
+    if ( totalCredit <= 20 ){
       setRemaining( remaining - credit );
+       // Total Price 
+      setPrice( Price + parseFloat(price) );
+          // set the course title in the purchase list 
+      setNames([...names, name]);
     }
     else {
       toast.warn('Credit hours exceeded', {
