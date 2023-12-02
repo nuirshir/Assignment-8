@@ -1,12 +1,12 @@
 import TitleList from "./titleList";
 import PropTypes from 'prop-types'
 
-const Purchase = ({names, Credit, Price}) => {
+const Purchase = ({names, Credit, Price, remaining}) => {
   return (
     <div className="md:w-1/4 rounded-xl h-min bg-white p-4 shadow-lg hover:shadow-indigo-500/40">
 
       <p className="text-[#2F80ED] text-lg font-bold pb-4  border-b border-[rgba(28, 27, 27, 0.2)]">
-        Credit Hour Remaining 7 hr
+        Credit Hour Remaining {remaining} hr
       </p>
       <p className="text-lg font-bold my-4">Course Name</p>
 
@@ -27,7 +27,8 @@ const Purchase = ({names, Credit, Price}) => {
 Purchase.propTypes ={
     names: PropTypes.array,
     Credit: PropTypes.number,
-    Price: PropTypes.number
+    Price: PropTypes.number,
+    remaining: PropTypes.number 
 }
 
 export default Purchase;
